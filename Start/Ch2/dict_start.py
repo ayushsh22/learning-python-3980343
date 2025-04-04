@@ -24,10 +24,13 @@ mydict = {
 # print(mydict["blarg"])
 
 # To avoid this, you can use the "in" operator to see if a key exists
-print("two" in mydict)
-print("blarg" in mydict)
+# print("two" in mydict)
+# print("blarg" in mydict)
 
 # You can retrieve all of the keys and values from a dictionary
-
+# print(mydict.keys())
+# print(mydict.values())
 
 # You can also iterate over all the items in a dictionary
+for key, val in mydict.items():
+  print(key, val)
