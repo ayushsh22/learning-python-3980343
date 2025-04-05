@@ -2,7 +2,7 @@
 # Example file for working with conditional statements
 
 
-x, y = 10, 100
+x, y = 100, 100
 
 # conditional flow uses if, elif, else
 # if x < y:
