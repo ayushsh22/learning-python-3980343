@@ -17,7 +17,7 @@
 try:
   answer = input("what should i add 10 by?")
   num = int(answer)
-  print(10+num)
+  print(10/num)
 except ZeroDivisionError as e: 
   print("You can't divide by zero")
 except ValueError as e:
