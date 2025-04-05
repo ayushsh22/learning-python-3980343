@@ -15,9 +15,9 @@
 
 # You can also catch specific exceptions
 try:
-  answer = input("what should i add 10 by?")
-  num = int(answer)
-  print(10/num)
+    answer = input("what should i divide 10 by?")
+    num = int(answer)
+    print(10/num)
 except ZeroDivisionError as e: 
   print("You can't divide by zero")
 except ValueError as e:
@@ -25,3 +25,7 @@ except ValueError as e:
   print(e)
 finally:
   print("Finally always runs")
+# answer = input("should i stop?")
+# while answer != "yes":
+#   print(answer)
+#   answer = input("should i stop?")
