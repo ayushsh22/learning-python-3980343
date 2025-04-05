@@ -15,9 +15,9 @@
 
 # You can also catch specific exceptions
 try:
-  answer = input("what should i divide 10 by?")
+  answer = input("what should i divide 100 by?")
   num = int(answer)
-  print(10/num)
+  print(100*num)
 except ZeroDivisionError as e: 
   print("You can't divide by zero")
 except ValueError as e:
