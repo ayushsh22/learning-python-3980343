@@ -23,9 +23,10 @@ result = 5
 # for i in range(5, 15, 2):
 #   print(i)
 
-for i in range(5, len(mystring), 2):
-  print(mystring[i])
+# for i in range(5, len(mystring), 2):
+#   print(mystring[i])
 
 # the print function itself is pretty flexible - you can embed variables directly in it
 greeting = "Hello!"
 count = 10
+print(f"{greeting} you are visitor number {count}")
